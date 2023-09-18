@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="C:/Users/HP/Documents/My project/spourmo/layout/bootstrap.min.css">
+    </head>
+    <body> 
+        <style>
+            body{
+                background-color: rgb(93, 17, 233);
+                width: 100%;
+            }
+        </style> 
+        <h2>Monarch College Registration Form</h2>
+        <form class="form">
+            <div class="input-group col-md-4">
+                <span class="input-group-text">First Name</span>
+                <input type="text" name="firstname" id="firstname" placeholder="Your First Name" class="form-control">
+            </div>
+            <br>
+            <div class="input-group col-md-4">
+                <span class="input-group-text">Middle Name</span>
+                <input type="text" name="middlename" id="middlename" placeholder="Your Middle Name" class="form-control">
+            </div>
+            <br>
+            <div class="input-group col-md-4">
+                <span class="input-group-text">Last Name</span>
+                <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" class="form-control">
+            </div>
+            <br>
+            <div class="input-group col-md-1">
+                <span class="input-group-radio">Male</span>
+                <input type="radio" name="gender" value="male" class="form-control" id="gender">
+            </div>
+            <br>
+            <div class="input-group col-md-1">
+                <span class="input-group-radio">Female</span>
+                <input type="radio" name="gender" value="female" class="form-control" id="gender">
+            </div>
+            <br>
+            <div class="input-group col-md-2">
+                <span class="input-number">Age</span>
+                <input type="number" name="age" class="form-control" id="age" value="age">
+                </div>
+            <br>
+            
+                <br>
+                <div class="input-group col-md-4">
+                    <span class="input-group-text">Nationality</span>
+                    <input name="nationality" type="text" placeholder="Your country" id="nationality" class="form-control">
+                </div>
+                <br>
+                <div class="input-group col-md-3">
+                    <span class="input-date">Date Of Birth</span>
+                    <input name="dateofbirth" value="dateofbirth" type="date" id="d.o.b" class="form-control">
+                </div>
+                <br>
+                <div class="input-group col-md-4">
+                    <span class="input-group-text">Address</span>
+                    <input name="address" type="text" placeholder="street address" id="address" class="form-control">
+                </div>
+                <br>
+                <div class="input-group col-md-4">
+                    <span class="input-group-text">Telephone number</span>
+                    <input name="telephonenumber" type="text" id="telephonenumber" class="form-control" placeholder="input mobile number only"">
+                </div>
+                <br>
+                <div class="input-group col-md-4">
+                    <span class="input-group-text">Email Address</span>
+                    <input name="emailaddress" type="text" id="emailaddress" class="form-control" placeholder="example@gmail.com"">
+                </div>
+		<br>
+        <br>
+            
+            <button type="button" class="btn btn-primary" onclick="firstbankregistration()">Submit</button>
+        </form>
+        <br><br>
+        <div class="row">
+        
+        
+        </div>    
+    <table class="table">
+    <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Nationality</th>
+        <th>Date of Birth</th>
+        <th>Address</th>
+        <th>Telephone</th>
+        <th>Email Address</th>
+    </tr>
+    <tr>
+        <td id="Tfirstname"></td>
+        <td id="Tmiddlename"></td>
+        <td id="Tlastname"></td>
+        <td id="Tgender"></td>
+        <td id="Tage"></td>
+        <td id="Tstateoforigin"></td>
+        <td id="Tnationality"></td>
+        <td id="Td.o.b"></td>
+        <td id="Taddress"></td>
+        <td id="Ttelephone"></td>
+        <td id="Temailaddress"></td>
+    </tr>
+    
+    </table>
+    </div>
+    <script src="C:/Users/HP/Desktop/personal website/js/firstbank.js"></script>
+    </body>
+</html>
